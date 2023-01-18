@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap');
 /* globol */
 html{
     box-sizing: border-box;
@@ -7,7 +8,7 @@ html{
 *,
 *::before,
 *::after{
-    box-sizing: inherit;
+    
 
 }
 body{
@@ -18,8 +19,9 @@ body{
     margin: 0;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #fff;
+    background: rgb(243, 243, 243);
     color: #222;
+    font-family: 'Libre Franklin', sans-serif;
 }
 img{
     max-width: 100%;
@@ -28,11 +30,11 @@ img{
 
 /* conteiner */
 
-.conteiner{
+.container{
     width: 100%;
     max-width: 1200px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -40,4 +42,162 @@ img{
 /* main_content */
 .main_content{
     flex-grow: 1;
+}
+
+
+.header {
+    border-bottom: 1px solid rgb(210, 210, 210);
+    margin-bottom: 59px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-log {
+    
+}
+.header-list {
+    display: flex;
+}
+.header-list__item {
+    list-style:none;
+}
+.header-list__item:not(:last-child){
+    margin-right: 40px;
+}
+.header-list__link {
+    text-decoration: none;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* hiro */
+
+.hiro {
+}
+.site-hiro {
+    display: flex;
+    margin-bottom: 74px;
+}
+.hiro-img{
+    width: 100%;
+    max-width: 721px;
+    height: 474px;
+    margin-right: 51px;
+    box-shadow: 17px -3px 22px -10px rgba(34, 60, 80, 0.2);
+}
+.site-hiro__content {
+    
+}
+.hiro-content__heading {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: #000000;
+}
+.hiro-content1__text {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+.button {
+    text-decoration: none;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.site-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid rgb(210, 210, 210) ;
+    margin-bottom: 130px;
+}
+
+.site-main__list {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgb(210, 210, 210) ;
+    margin-bottom: 100px;
+}
+.site-main__item {
+    width: 100%;
+    max-width: 380px;
+    padding-top: 5px;
+    list-style: none;
+    margin-bottom: 60px;
+    border-radius: 5px;
+}
+.site-main__item:not(:last-child){
+    margin-right: 20px;
+}
+.main-img {
+}
+.main-text {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* main-content_gallry */
+
+.main-content__gallry {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-content__gallry-item {
+    width: 280px;
+    list-style: none;
+    margin-bottom: 74px;
+}
+.main-content__gallry-item:not(:last-child){
+    margin-right: 20px;
+}
+.main-content__gallry-img {
+    width: 285px;
+    height: 187px;
+}
+.main-content__gallry-text {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.button_main{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    padding: 21px 26px;
+    border: 1px solid #000;
+    margin-bottom: 90px;
 }
