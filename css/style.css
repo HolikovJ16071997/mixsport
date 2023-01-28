@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap');
+
 /* globol */
 html{
     box-sizing: border-box;
@@ -237,4 +238,35 @@ img{
     line-height: 12px;
     color: #666666;
 
+}
+
+.footer-icon {
+    display: flex;
+    margin-left: auto;
+}
+.footer-icon__item {
+    list-style: none;
+}
+.footer-icon__item:not(:last-child){
+    margin-right: 10px;
+}
+.footer-icon__list {
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.footer-icon__list .fa:hover{
+    opacity: 0.8;
+    transform: translateX(12px, 50%);
+    
+}
+.fa-telegram {
+
+    color:#039BE5;
+}
+.fa-instagram {
+    color: #D800B9;
+}
+.fa-youtube {
+    color:#D42428;
 }
