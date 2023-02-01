@@ -271,32 +271,19 @@ img{
     color:#D42428;
 }
 
+@media screen and (max-width: 1240px) {
+    .site-main__item{
+        width: calc(100%/3 - 20px);
+    }
+}
+@media screen and (max-width: 1000px) {
+    .site-main__item{
+        width: calc(100%/2 - 20px);
+    }
+}
 @media screen and (max-width: 800px) {
-    .header-container{
-        margin: 0;
-        padding: 0;
+    .site-main__item{
+        width: calc(100% - 20px);
     }
-    .site-hiro {
-        display: none;
-    }
-    .footer-header {
-        margin: 0;
-        flex-direction: column;
-       border-bottom: none;
-    }
-    .footer-icon{
-        margin: 0;
-        padding: 0;
-    }
-    .header-container{
-        flex-direction: column;
-    }
-    .site-main{
-        margin: 0;
-        padding: 0;
-    }
-    .site-main__list{
-        margin: 0;
-        padding: 0;
-    }
-  }
+}
+
