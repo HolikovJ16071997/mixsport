@@ -272,6 +272,10 @@ img{
 }
 
 @media screen and (max-width: 1240px) {
+    .site-main{
+        margin: 0;
+        padding: 0;
+    }
     .site-main__item{
         width: calc(100%/3 - 20px);
     }
